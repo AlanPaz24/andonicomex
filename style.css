@@ -1,0 +1,231 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+.navbar-brand img {
+    width: 210px;
+}
+
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+.active:hover{
+    color: orange;
+
+}
+.baner {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: rgb(207, 207, 207);
+    margin-top: 100px; 
+  }
+
+  .column {
+    flex-basis: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  /* Estilos para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .column {
+      flex-basis: 100%;
+    }
+    .baner {
+        height: auto;
+    }
+
+    }
+
+
+.column1 {
+    background-image: url(./assets/comerimg4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgb(22 97 183 / 80%);
+}
+
+.elemento {
+    text-align: center;
+    padding: 15px;
+}
+.column1 h2 {
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(12, 12, 12);
+    padding-top: 20%;
+    
+}
+.column1 p {
+    text-align: center;
+    position: relative;
+    transform: translateY(-50%);
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(12, 12, 12);
+    
+}
+
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    color: #fff;
+    text-decoration: none;
+    z-index: 1;
+  }
+
+
+.seccionindex {
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.baner2 {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background-color: gray;
+    height: 300px;
+}
+.baner2 h2 {
+    color: white;
+    padding-top: 30px;
+}
+
+.boton-consulta {
+    background-color: #ffd103;
+    color: rgb(15, 15, 15);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 30px;
+}
+.boton-consulta:hover {
+    background-color: #f3d449;
+}
+.titulo-servicios {
+    text-align: center;
+    margin: 10px;
+}
+
+.servicios {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 60px;
+    display: grid;
+    gap: 5rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    justify-content: center;
+    text-align: center;
+    
+}
+.formulario {
+    width: 90%;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  @media (min-width: 768px) {
+    .formulario {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+
+    }
+
+  }
+
+  
+form {
+    background-color: rgb(5, 154, 223);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+.boton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+.boton:hover {
+    background-color: #1c33fc;
+  }
+
+
+  .footer {
+    background-color: #333;
+    color: #acacac;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .footer a {
+    color: #acacac;
+    text-decoration: none;
+  }
+  .puntero img{
+    position: fixed;
+    bottom: 100px;
+    right: 5px;
+    color: #fff;
+    text-decoration: none;
+    z-index: 1;
+  }
