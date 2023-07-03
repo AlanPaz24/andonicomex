@@ -5,7 +5,6 @@ body {
   padding: 0;
   box-sizing: 0;
   font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
-  background-image: linear-gradient(to right, rgb(248, 248, 248) , rgb(81, 183, 241));
 }
 
 .navbar {
@@ -14,7 +13,6 @@ body {
     top: 0;
     left: 0;
     z-index: 1;
-      background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(81, 183, 241));
     
 }
 .navbar-brand img {
@@ -65,7 +63,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-    background-color: rgb(22 97 183 / 80%);
+    background-color: rgba(0, 6, 12, 0.8);
 }
 
 .elemento {
@@ -108,19 +106,24 @@ body {
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 .baner2 {
     width: 100%;
     text-align: center;
     justify-content: center;
-    background-color: gray;
+    background-image:url(./assets/comerimg3.jpg);
     height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 6, 12, 0.8);
 }
 .baner2 h2 {
     color: white;
     padding-top: 30px;
+    margin: 20px;
 }
 
 .boton-consulta {
@@ -141,10 +144,12 @@ body {
     margin: 10px;
 }
 .contenedor-servicios {
+    width: 90%;
+    margin: 5%;
+    display: flex;
     justify-content: center;
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    align-items: center;
+    padding: 15px;
 
 
 }
@@ -154,9 +159,8 @@ body {
     display: inline-block;
     text-align: center;
     margin-top: 30px;
-    box-shadow: 0 0 15px rgb(0, 0, 0);
-    margin: 2%;
-    
+    box-shadow: 0 0 15px rgb(0, 0, 0);   
+    margin: 15px;
   }
 
   .card img {
@@ -182,9 +186,25 @@ body {
       display: block;
       width: 270px;
     }
+    .contenedor-servicios {
+      flex-direction: column;
+    }
   }
 
+.contenedor-formulario {
+  width: 100%;
+  background-image: url(./assets/baner9.png);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
 
+}
+.contenedor-formulario h3{
+  color: white;
+  padding: 30px;
+  text-decoration-line: underline;
+  
+}
 
 .formulario {
     width: 90%;
@@ -193,13 +213,17 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 40px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);  
+    border-radius: 15px;
+
   }
   @media (min-width: 768px) {
     .formulario {
-        width: 40%;
-        margin-left: 30%;
-        margin-right: 30%;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
         margin-bottom: 30px;
+        justify-content: center;
 
     }
 
