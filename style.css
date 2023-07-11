@@ -5,7 +5,8 @@ body {
   padding: 0;
   box-sizing: 0;
   font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
-  background-color:black;
+  background-color: #212529;
+
 }
 
 
@@ -71,11 +72,15 @@ body {
     background-repeat: no-repeat;
     background-blend-mode: overlay;
     background-color: rgba(0, 6, 12, 0.8);
+    font-weight: bold;
 }
 
 .elemento {
     text-align: center;
     padding: 15px;
+}
+.elemento p {
+    font-weight: bold;
 }
 .column1 h2 {
     text-align: center;
