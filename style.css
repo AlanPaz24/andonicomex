@@ -43,7 +43,9 @@ body {
     background-color: rgb(207, 207, 207);
     margin-top: 150px; 
   }
-
+.emoji {
+  font-size: xx-large;
+}
   .column {
     flex-basis: 50%;
     padding: 20px;
