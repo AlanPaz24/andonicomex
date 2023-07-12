@@ -323,16 +323,10 @@ textarea {
 .articulo-consultoria {
   color: white;
   width: 50%;
-  text-align: left;
-  font-family: Vegur, 'PT Sans', Verdana, sans-serif;
-}
-.articulo-consultoria h3 {
   text-align: center;
-  margin: 30px;
+  padding: 20px;
 }
-.articulo-consultoria p {
-  text-align: center;
-}
+
 
 .articulo-consultoria li {
   list-style: none;
@@ -342,14 +336,17 @@ textarea {
   background-size: cover;
   width: 50%;
 }
-@media (min-width: 768px) {
-  .seccion-consultoria {
-      width: 50%;
-      margin-left: 25%;
-      margin-right: 25%;
-      margin-bottom: 30px;
-      justify-content: center;
+.imagen-consultoria img {
+  display: none;
+}
+@media (max-width: 768px) {
+  .imagen-consultoria {
+    display: none;
+  }
+  .articulo-consultoria {
+    width: 80%;
+    margin: 10%;
+  }
 
   }
 
-}
