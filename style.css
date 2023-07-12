@@ -137,12 +137,13 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    background-color: rgba(0, 6, 12, 0.8);
+    background-color: rgba(14, 14, 14, 0.2);
 }
 .baner2 h2 {
-    color: white;
+    color: rgb(255, 255, 255);
     padding-top: 30px;
     margin: 20px;
+    font-weight: bold;
 }
 
 .boton-consulta {
@@ -305,7 +306,7 @@ textarea {
   .puntero img{
     position: fixed;
     bottom: 100px;
-    right: 5px;
+    right: 0.5px;
     color: #fff;
     text-decoration: none;
     z-index: 1;
