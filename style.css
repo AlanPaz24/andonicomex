@@ -210,6 +210,9 @@ body {
     .contenedor-servicios {
       flex-direction: column;
     }
+    .seccion-consultoria {
+      flex-direction: column;
+    }
   }
 
 .contenedor-formulario {
@@ -311,3 +314,42 @@ textarea {
     text-decoration: none;
     z-index: 1;
   }
+
+.seccion-consultoria {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: row;
+}
+.articulo-consultoria {
+  color: white;
+  width: 50%;
+  text-align: left;
+  font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+}
+.articulo-consultoria h3 {
+  text-align: center;
+  margin: 30px;
+}
+.articulo-consultoria p {
+  text-align: center;
+}
+
+.articulo-consultoria li {
+  list-style: none;
+}
+.imagen-consultoria {
+  background-image: url(./assets/consul.jpg);
+  background-size: cover;
+  width: 50%;
+}
+@media (min-width: 768px) {
+  .seccion-consultoria {
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-bottom: 30px;
+      justify-content: center;
+
+  }
+
+}
