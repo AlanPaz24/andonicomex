@@ -116,18 +116,32 @@ body {
     text-decoration: none;
     z-index: 1;
   }
-
+.section {
+  display: flex;
+  flex-direction: row;
+}
 
 .seccionindex {
-    text-align: center;
+    text-align:start;
     justify-content: center;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 40%;
     margin-top: 50px;
     margin-bottom: 60px;
     color: white;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
 }
+.seccionindex h2 {
+  text-align: center;
+  color: #ffb006;
+}
+.imagen-quienessomos {
+  width: 50%;
+  background-image: url(./assets/baner6.png);
+  background-size: cover;
+}
+
 .baner2 {
     width: 100%;
     text-align: center;
@@ -137,7 +151,7 @@ body {
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    background-color: rgba(14, 14, 14, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .baner2 h2 {
     color: rgb(255, 255, 255);
@@ -158,10 +172,11 @@ body {
 }
 .boton-consulta:hover {
     background-color: #f3d449;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 0, 0.5);
 }
 .titulo-servicios {
     text-align: center;
-    margin: 10px;
+    margin: 30px;
     color: white;
 }
 .contenedor-servicios {
@@ -183,7 +198,9 @@ body {
     box-shadow: 0 0 15px rgb(0, 0, 0);   
     margin: 15px;
   }
-
+.card:hover {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+}
   .card img {
     width: 100%;
   }
@@ -313,40 +330,5 @@ textarea {
     color: #fff;
     text-decoration: none;
     z-index: 1;
-  }
-
-.seccion-consultoria {
-  margin-top: 180px;
-  display: flex;
-  flex-direction: row;
-}
-.articulo-consultoria {
-  color: white;
-  width: 50%;
-  text-align: center;
-  padding: 20px;
-}
-
-
-.articulo-consultoria li {
-  list-style: none;
-}
-.imagen-consultoria {
-  background-image: url(./assets/consul.jpg);
-  background-size: cover;
-  width: 50%;
-}
-.imagen-consultoria img {
-  display: none;
-}
-@media (max-width: 768px) {
-  .imagen-consultoria {
-    display: none;
-  }
-  .articulo-consultoria {
-    width: 80%;
-    margin: 10%;
-  }
-
   }
 
