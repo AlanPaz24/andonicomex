@@ -426,3 +426,6 @@ textarea {
     height: 300px;
   }
 }
+.texto-consultoria h2 {
+  text-align: center;
+}
