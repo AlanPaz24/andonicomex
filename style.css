@@ -470,3 +470,38 @@ textarea {
     margin-bottom: 20px;
   }
 }
+/*exportacion*/
+
+.seccion-exportacion {
+  margin-top: 200px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.articulo-exportacion {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.articulo-exportacion h2{
+  text-align: center;
+  color: #f3d449;
+}
+.imagen-exportacion {
+  background-image: url(./assets/exporta.webp);
+  background-size: cover;
+  width: 95%;
+  background-position: center;
+  padding: 100px;
+  margin-right: 5%;
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  .seccion-exportacion {
+    flex-direction: column;
+  }
+  .imagen-exportacion {
+    height: 300px;
+    width: 100%;
+  }
+}
