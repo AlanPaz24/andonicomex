@@ -245,9 +245,6 @@ body {
     .contenedor-servicios {
       flex-direction: column;
     }
-    .seccion-consultoria {
-      flex-direction: column;
-    }
   }
 
 .contenedor-formulario {
@@ -349,4 +346,83 @@ textarea {
     text-decoration: none;
     z-index: 1;
   }
+.section-consultoria {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+}
+.texto-consultoria {
+  color: rgb(255, 255, 255);
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 20px;
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  border-radius: 20px;
 
+}
+.texto-consultoria:hover {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+}
+
+.imagen-consultoria {
+  background-image: url(./assets/consul.jpg);
+  background-size: cover;
+  width: 94%;
+  border-radius: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 10px;
+}
+.imagen-consultoria:hover {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+}
+.section-consultoria2 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.texto-consultoria2 {
+  color: rgb(255, 255, 255);
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 20px;
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.texto-consultoria2:hover {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+}
+
+.imagen-consultoria2 {
+  background-image: url(./assets/consul2.webp);
+  background-size: cover;
+  width: 94%;
+  border-radius: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 10px;
+}
+.imagen-consultoria2:hover {
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 767px) {
+  .section-consultoria {
+    flex-direction: column;
+  }
+  .section-consultoria {
+    flex-direction: column;
+  }
+  .section-consultoria2 {
+    flex-direction: column;
+  }
+  .imagen-consultoria {
+    height: 300px;
+  }
+  .imagen-consultoria2 {
+    height: 300px;
+  }
+}
