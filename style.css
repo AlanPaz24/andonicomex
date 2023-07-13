@@ -121,23 +121,41 @@ body {
   flex-direction: row;
 }
 
+@media (max-width: 767px) {
+  .section {
+    flex-direction: column;
+  }
+  .seccionindex {
+    width: 80%;
+  }
+  .imagen-quienessomos {
+    width: 100%;
+    height: 300px;
+  }
+}
+
 .seccionindex {
     text-align:start;
     justify-content: center;
-    width: 40%;
+    width: 90%;
     margin-top: 50px;
     margin-bottom: 60px;
     color: white;
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
+    padding: 20px;
 }
 .seccionindex h2 {
   text-align: center;
-  color: #ffb006;
+  color: #ffb006; 
+}
+.seccionindex h3 {
+  color: #f3d449;
+  text-align: center;
 }
 .imagen-quienessomos {
-  width: 50%;
+  width: 100%;
   background-image: url(./assets/baner6.png);
   background-size: cover;
 }
