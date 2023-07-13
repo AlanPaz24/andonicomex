@@ -250,7 +250,7 @@ body {
 
 .contenedor-formulario {
   width: 100%;
-  background: linear-gradient(to bottom, #000000, #0f9b0f);
+  background: linear-gradient(to bottom, #000000, #060d68);
   text-align: center;
 }
 .formulario:hover {
@@ -346,6 +346,9 @@ textarea {
     text-decoration: none;
     z-index: 1;
   }
+
+/*consultoria*/
+
 .section-consultoria {
   margin-top: 200px;
   display: flex;
@@ -357,7 +360,6 @@ textarea {
   margin-left: 3%;
   margin-right: 3%;
   padding: 20px;
-  background: linear-gradient(to right, #4b6cb7, #182848);
   border-radius: 20px;
 
 }
@@ -389,7 +391,6 @@ textarea {
   margin-left: 3%;
   margin-right: 3%;
   padding: 20px;
-  background: linear-gradient(to right, #4b6cb7, #182848);
   border-radius: 20px;
   margin-top: 10px;
 }
@@ -429,3 +430,5 @@ textarea {
 .texto-consultoria h2 {
   text-align: center;
 }
+/*importacion*/
+
